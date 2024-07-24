@@ -12,8 +12,9 @@ spring:
     properties:
       hibernate:
         format_sql: true
-        show_sql: true #쿼리 예쁘게 보여짐
+       # show_sql: true #쿼리 예쁘게 보여짐
 
 logging.level:
   org.hibernate.SQL: debug
   org.hibernate.type: trace #물음표 값을 볼 수 있음
+  p6spy: debug

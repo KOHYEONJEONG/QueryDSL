@@ -37,6 +37,9 @@ dependencies {
 	annotationProcessor "jakarta.annotation:jakarta.annotation-api"
 	annotationProcessor "jakarta.persistence:jakarta.persistence-api"
 
+	//P6spy 스프링 부트 스타터(물음표 값 보여짐) springboot 3.x.x는 1.9.0 이상 사용
+	implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.9.0'
+
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'
 	annotationProcessor 'org.projectlombok:lombok'
