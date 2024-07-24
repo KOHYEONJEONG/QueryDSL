@@ -16,3 +16,4 @@ spring:
 
 logging.level:
   org.hibernate.SQL: debug
+  org.hibernate.type: trace #물음표 값을 볼 수 있음
